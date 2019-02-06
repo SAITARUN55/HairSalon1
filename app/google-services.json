@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "505424827125",
+    "firebase_url": "https://hairsalon1-9a0eb.firebaseio.com",
+    "project_id": "hairsalon1-9a0eb",
+    "storage_bucket": "hairsalon1-9a0eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505424827125:android:37598f2bdbb79e22",
+        "android_client_info": {
+          "package_name": "com.example.saitarun.hairsalon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505424827125-3ltbf0lk4qsjomvec7og8gvo7qe7mh05.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.saitarun.hairsalon",
+            "certificate_hash": "ea332b2f0e2f2aca508dc5d73c100776f1b2036f"
+          }
+        },
+        {
+          "client_id": "505424827125-t253vik12gf0tjsmlr692onvlki74uu3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJfB6q2lLs5Wtzq3hlXxLNHqICCMe5WHI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505424827125-t253vik12gf0tjsmlr692onvlki74uu3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

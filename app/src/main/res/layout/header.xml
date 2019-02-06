@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:orientation="vertical"
+    android:background="@drawable/hair_stylist_background1"
+    android:padding="20dp">
+    
+    <ImageView
+        android:src="@drawable/hairsalon1"
+        android:layout_width="75dp"
+        android:layout_height="75dp" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hair saloons media"
+        android:textColor="#FFFFFF"
+        android:textStyle="italic"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hairsaloons@gmail.com"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Blogs"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/webLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#FFFFFF"
+            android:onClick="onUrlClick"
+            tools:ignore="OnClick"
+            android:elevation="4dp">
+
+            <ImageView
+                android:id="@+id/web_img1"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/natural_hair1"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="@dimen/margin_layout"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Top 20 natural ways for great hair"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/web_img1"
+                android:layout_margin="@dimen/margin_layout"
+                android:autoLink="web"
+                android:textStyle="italic"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Times of India"
+                android:textSize="12sp"
+                android:textColor="#616161"
+                android:layout_toRightOf="@id/web_img1"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/margin_layout"
+                android:layout_marginLeft="@dimen/margin_layout"
+                android:paddingBottom="@dimen/margin_layout"/>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/webLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#FFFFFF"
+            android:onClick="onUrlClick2"
+            tools:ignore="OnClick"
+            android:elevation="4dp">
+
+            <ImageView
+                android:id="@+id/web_img2"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/hairstyle2"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="@dimen/margin_layout"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Men's HairStyling Tips"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/web_img2"
+                android:layout_margin="@dimen/margin_layout"
+                android:autoLink="web"
+                android:textStyle="italic"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YouTube.com"
+                android:textSize="12sp"
+                android:textColor="#616161"
+                android:layout_toRightOf="@id/web_img2"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/margin_layout"
+                android:layout_marginLeft="@dimen/margin_layout"
+                android:paddingBottom="@dimen/margin_layout"/>
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/webLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#FFFFFF"
+            android:onClick="onUrlClick3"
+            tools:ignore="OnClick"
+            android:elevation="4dp">
+
+            <ImageView
+                android:id="@+id/web_img3"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/women_hairstyle3"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="@dimen/margin_layout"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Women's HairStyling Tips"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/web_img3"
+                android:layout_margin="@dimen/margin_layout"
+                android:autoLink="web"
+                android:textStyle="italic"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YouTube.com"
+                android:textSize="12sp"
+                android:textColor="#616161"
+                android:layout_toRightOf="@id/web_img3"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/margin_layout"
+                android:layout_marginLeft="@dimen/margin_layout"
+                android:paddingBottom="@dimen/margin_layout"/>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/webLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#FFFFFF"
+            android:onClick="onUrlClick4"
+            tools:ignore="OnClick4"
+            android:elevation="4dp">
+
+            <ImageView
+                android:id="@+id/web_img4"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/women_hairspray"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="@dimen/margin_layout"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Best Women's HairSpray's"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/web_img4"
+                android:layout_margin="@dimen/margin_layout"
+                android:autoLink="web"
+                android:textStyle="italic"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Amazon.com"
+                android:textSize="12sp"
+                android:textColor="#616161"
+                android:layout_toRightOf="@id/web_img4"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/margin_layout"
+                android:layout_marginLeft="@dimen/margin_layout"
+                android:paddingBottom="@dimen/margin_layout"/>
+
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/webLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#FFFFFF"
+            android:onClick="onUrlClick5"
+            tools:ignore="OnClick"
+            android:elevation="4dp">
+
+            <ImageView
+                android:id="@+id/web_img5"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/hairgels"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="@dimen/margin_layout"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="Order Men's HairGel's"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/web_img5"
+                android:layout_margin="@dimen/margin_layout"
+                android:autoLink="web"
+                android:textStyle="italic"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Flipkart.com"
+                android:textSize="12sp"
+                android:textColor="#616161"
+                android:layout_toRightOf="@id/web_img5"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/margin_layout"
+                android:layout_marginLeft="@dimen/margin_layout"
+                android:paddingBottom="@dimen/margin_layout"/>
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/webLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="#FFFFFF"
+            android:onClick="onUrlClick6"
+            tools:ignore="OnClick"
+            android:elevation="4dp">
+
+            <ImageView
+                android:id="@+id/web_img6"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:src="@drawable/hairloss"
+                android:layout_alignParentLeft="true"
+                android:layout_margin="@dimen/margin_layout"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="10 Natural remedies for hair loss"
+                android:textSize="20sp"
+                android:layout_toRightOf="@id/web_img6"
+                android:layout_margin="@dimen/margin_layout"
+                android:autoLink="web"
+                android:textStyle="italic"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="OneGoodThingBlog.com"
+                android:textSize="12sp"
+                android:textColor="#616161"
+                android:layout_toRightOf="@id/web_img6"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/margin_layout"
+                android:layout_marginLeft="@dimen/margin_layout"
+                android:paddingBottom="@dimen/margin_layout"/>
+
+
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

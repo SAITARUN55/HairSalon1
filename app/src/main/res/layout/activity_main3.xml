@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Main3Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_marginBottom="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/nad2"
+            android:contentDescription="@string/hairSalonnad1" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/naturals_hair_salon"
+                android:textColor="@color/black"
+                android:layout_marginLeft="8dp"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="268dp"
+                android:layout_marginStart="8dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:background="@drawable/button_shapes"
+                android:text="@string/book"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="end"
+                android:onClick="btspa1"/>
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:textSize="16sp"
+                android:text="@string/naturals_has_come_a_long_way_since_its_humble_beginnings_in_2001_over_the_years_it_has_grown_to_become_india_s_no_1_salon_chain_relax_detoxify_and_rejuvenate_at_naturals_unisex_salon_our_beauty_services_range_from_the_basics_like_haircuts_and_waxing_to_more_luxurious_treatments_like_body_spa_and_natural_facials_our_hair_and_beauty_experts_use_only_quality_products_and_state_of_the_art_equipment_that_ensure_the_best_treatment_for_our_customers_with_over_550_beauty_salons_across_the_country_naturals_has_grown_to_become_india_s_most_prominent_chain_of_unisex_salons"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:focusableInTouchMode="true"
+                android:onClick="showMap1"
+                android:text="Address: Landmark Building, T-7, Third, CBM Compound Rd, Waltair Uplands, Visakhapatnam, Andhra Pradesh 530003"
+                android:textIsSelectable="true"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/address1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="showMap1"
+                android:text="View maps"
+                android:textColor="#2196F3"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

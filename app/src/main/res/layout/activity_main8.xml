@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main8Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/date_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_date"
+            android:textSize="@dimen/text_size"
+            android:textColor="@color/red"
+            android:textStyle="italic"
+            android:layout_margin="@dimen/margin_layout" />
+
+        <com.github.jhonnyx2012.horizontalpicker.HorizontalPicker
+            android:id="@+id/datePicker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/order_summary_text"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_margin="24dp"
+        android:paddingLeft="16dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirm_button"
+            android:textSize="20sp"
+            android:layout_margin="8dp"
+            android:onClick="orderSummary"
+            android:background="@drawable/button_shapes"
+            android:textColor="@color/black" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/proceed"
+            android:textSize="20sp"
+            android:layout_margin="8dp"
+            android:layout_alignParentRight="true"
+            android:onClick="registrationPage"
+            android:background="@drawable/button_shapes" />
+
+    </RelativeLayout>
+
+</LinearLayout>

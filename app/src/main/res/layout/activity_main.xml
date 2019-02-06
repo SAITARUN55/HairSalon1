@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <com.tmall.ultraviewpager.UltraViewPager
+            android:id="@+id/ultra_viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:background="@android:color/darker_gray" />
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="@dimen/margin_layout"
+            android:layout_marginEnd="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/spa_hair_salon"
+                android:textColor="@color/black"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="end"
+                android:background="@drawable/button_shapes"
+                android:onClick="btspa1"
+                android:text="@string/book"
+                android:textStyle="bold"/>
+
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/hair_is_the_most_beautiful_feature_of_a_person_hair_can_make_or_break_your_look_which_is_why_taking_care_of_those_lovely_locks_is_important_after_each_hair_service_you_render_at_o2_spa_you_ll_see_a_significant_positive_change_in_your_hair_s_texture_and_style_o2_spa_provides_the_best_of_hair_salon_services_and_hair_care_services_to_make_your_locks_lush_healthy_bouncy_and_beautiful_one_cannot_say_no_to_our_expansive_range_of_hair_services_like_hair_colouring_straightening_and_curling_haircuts_hair_spa_hair_styling_hair_shampooing_and_conditioning_and_many_other_hair_treatments_to_make_your_hair_stronger_shinier_and_thick_do_not_miss_out_on_the_world_s_best_haircare_service_provider_o2_spa_let_your_hair_shine"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:focusableInTouchMode="true"
+                android:onClick="showMap1"
+                android:text="Address: Landmark Building, T-7, Third, CBM Compound Rd, Waltair Uplands, Visakhapatnam, Andhra Pradesh 530003"
+                android:textIsSelectable="true"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/address1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:onClick="showMap1"
+                android:text="View maps"
+                android:textColor="#2196F3"
+                android:textSize="14sp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

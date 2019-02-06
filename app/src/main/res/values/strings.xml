@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">Hair Salon</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+    <string name="todo3">TODO</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="todo6">TODO</string>
+    <string name="imgnad1">TODO</string>
+    <string name="hairSalonnad1">TODO</string>
+    <string name="spa_hair_salon">SPA Hair Salon</string>
+    <string name="book">BOOK</string>
+    <string name="hair_is_the_most_beautiful_feature_of_a_person_hair_can_make_or_break_your_look_which_is_why_taking_care_of_those_lovely_locks_is_important_after_each_hair_service_you_render_at_o2_spa_you_ll_see_a_significant_positive_change_in_your_hair_s_texture_and_style_o2_spa_provides_the_best_of_hair_salon_services_and_hair_care_services_to_make_your_locks_lush_healthy_bouncy_and_beautiful_one_cannot_say_no_to_our_expansive_range_of_hair_services_like_hair_colouring_straightening_and_curling_haircuts_hair_spa_hair_styling_hair_shampooing_and_conditioning_and_many_other_hair_treatments_to_make_your_hair_stronger_shinier_and_thick_do_not_miss_out_on_the_world_s_best_haircare_service_provider_o2_spa_let_your_hair_shine">Hair is the most beautiful feature of a person. Hair can make or break your look, which is why taking care of those lovely locks is important. After each hair service you render at O2 Spa, you’ll see a significant positive change in your hair’s texture and style. O2 Spa provides the best of Hair Salon Services and Hair Care Services to make your locks lush, healthy, bouncy and beautiful. One cannot say no to our expansive range of hair services like hair colouring, straightening and curling, haircuts, hair spa, hair styling, hair shampooing and conditioning, and many other hair treatments to make your hair stronger, shinier and thick. Do not miss out on the world’s best haircare service provider, O2 Spa. Let your hair shine!</string>
+    <string name="naturals_hair_salon">Naturals Hair Salon</string>
+    <string name="naturals_has_come_a_long_way_since_its_humble_beginnings_in_2001_over_the_years_it_has_grown_to_become_india_s_no_1_salon_chain_relax_detoxify_and_rejuvenate_at_naturals_unisex_salon_our_beauty_services_range_from_the_basics_like_haircuts_and_waxing_to_more_luxurious_treatments_like_body_spa_and_natural_facials_our_hair_and_beauty_experts_use_only_quality_products_and_state_of_the_art_equipment_that_ensure_the_best_treatment_for_our_customers_with_over_550_beauty_salons_across_the_country_naturals_has_grown_to_become_india_s_most_prominent_chain_of_unisex_salons">Naturals has come a long way since its humble beginnings in 2001. Over the years it has grown to become India’s No. 1 salon chain.Relax, detoxify and rejuvenate at Naturals Unisex Salon. Our beauty services range from the basics like haircuts and waxing to more luxurious treatments like body spa and natural facials. Our hair and beauty experts use only quality products and state-of-the-art equipment that ensure the best treatment for our customers.With over 550 beauty salons across the country, Naturals has grown to become India’s most prominent chain of unisex salons.</string>
+    <string name="manea_the_salon">Manea The Salon</string>
+    <string name="green_trends_salon">Green Trends Salon</string>
+    <string name="kapils_salon">Kapils Salon</string>
+    <string name="bounce_salon">Bounce Salon</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="_9_00am">9:00am</string>
+    <string name="_11_00am">11:00am</string>
+    <string name="_12_00pm">12:00pm</string>
+    <string name="_3_00pm">3:00pm</string>
+    <string name="_2_00pm">2:00pm</string>
+    <string name="_4_00pm">4:00pm</string>
+    <string name="_5_00pm">5:00pm</string>
+    <string name="_6_00pm">6:00pm</string>
+    <string name="_7_00pm">7:00pm</string>
+    <string name="hair_cut">Hair Cut</string>
+    <string name="_9_00pm">9:00pm</string>
+    <string name="_8_00pm">8:00pm</string>
+    <string name="shaving">Shaving</string>
+    <string name="trimming">Trimming</string>
+    <string name="tanning_pack">Tanning Pack</string>
+    <string name="fruit_pack">Fruit Pack</string>
+    <string name="facial">Facial</string>
+    <string name="hair_conditioning">Hair Conditioning</string>
+    <string name="manicure">Manicure</string>
+    <string name="pedicure">Pedicure</string>
+    <string name="body_waxing">Body Waxing</string>
+    <string name="massage">Massage</string>
+    <string name="coloring">Coloring</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="choose_date">Choose date and time :</string>
+    <string name="date">Date</string>
+    <string name="choose_time">Choose time:</string>
+    <string name="time">Time</string>
+    <string name="confirm_button">Next</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="date_picker">datePicker</string>
+    <string name="time_picker">timePicker</string>
+    <string name="proceed">Proceed</string>
+    <string name="favourites">Favourites</string>
+    <string name="blogs">Blogs</string>
+    <string name="orders">Orders</string>
+    <string name="submit">Submit</string>
+    <string name="feedback">Feedback</string>
+    <string name="please_give_your_ratings_below">Please give your ratings below:</string>
+    <string name="your_feedback_here">Your Feedback Here</string>
+    <string name="enter_your_phone_number">Enter your phone number:</string>
+    <string name="button">Button</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="enter_verification_code">Enter Verification Code:</string>
+    <string name="verify">Verify</string>
+    <string name="address_landmark_building_t_7_third_cbm_compound_rd_waltair_uplands_visakhapatnam_andhra_pradesh_530003">Address: Landmark Building, T-7, Third, CBM Compound Rd, Waltair Uplands, Visakhapatnam, Andhra Pradesh 530003</string>
+    <string name="view_maps">View maps</string>
+
+
+    <string-array name="time_picker">
+        <item>Choose Time</item>
+        <item>09:00am</item>
+        <item>10:00am</item>
+        <item>11:00am</item>
+        <item>12:00pm</item>
+        <item>02:00pm</item>
+        <item>03:00pm</item>
+        <item>04:00pm</item>
+        <item>05:00pm</item>
+        <item>06:00pm</item>
+        <item>07:00pm</item>
+        <item>08:00pm</item>
+        <item>09:00pm</item>
+    </string-array>
+
+    <string-array name="service_picker">
+        <item>Choose a Service</item>
+        <item>Hair Cut</item>
+        <item>Shaving</item>
+        <item>Trimming</item>
+        <item>Tanning Pack</item>
+        <item>Fruit Pack</item>
+        <item>Facial</item>
+        <item>Hair Conditioning</item>
+        <item>Manicure</item>
+        <item>Pedicure</item>
+        <item>Body Waxing</item>
+        <item>Massage</item>
+        <item>Coloring</item>
+    </string-array>
+
+
+</resources>
